@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-5 | Expense Manager</title>
+    <link rel="stylesheet" href="expenseManager.css" />
+  </head>
+  <body>
+    <header>
+      <select name="operation" id="operation">
+        <option value="plus" id="plus">+</option>
+        <option value="minus" id="minus">-</option>
+      </select>
+
+      <input type="text" id="description" placeholder="description" />
+      <input type="number" id="amount" placeholder="amount" />
+      <button id="add-btn" onclick="add()">+ Add</button>
+    </header>
+
+    <div id="section-container">
+      <section id="section1">
+        <h3>All Incomes</h3>
+      </section>
+
+      <section id="section2">
+        <p>Income <span id="income"></span></p>
+        <hr />
+        <p>Money Left <span id="money-left"></span></p>
+        <hr />
+        <p>Expense <span id="expense"></span></p>
+      </section>
+
+      <section id="section3">
+        <h3>All Expenses</h3>
+      </section>
+    </div>
+
+    <script src="expenseManager.js"></script>
+  </body>
+</html>

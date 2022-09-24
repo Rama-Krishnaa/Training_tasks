@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-3</title>
+</head>
+<body>
+
+<!--  User Policy -->
+
+<pre>        
+    <p>Select the user policy you agree</p>
+    <input type="checkbox" name="privacy" id="privacy" onchange="show()" value="Privacy Policy">Privacy Policy 
+    <input type="checkbox" name="accept-user" id="accept-user" onchange="show()" value="Accept User">Accept user policy
+    <input type="checkbox" name="end-user" id="end-user" onchange="show()" value="End User">End user policy
+    <p>You agreed with </p>
+    <p id="output" onchange="show()"></p>
+</pre>
+
+<!-- Task Manager -->
+
+ <pre>     
+    <span>Task List Manager</span>
+    <button id="add-btn" onclick="addPrompt()">Add task</button>
+    <button id="dlt-btn" onclick=dltPrompt()>Delete task</button>
+    <p id="output"></p>
+</pre>
+
+
+<!-- Cart -->
+<pre>
+   Item Id:        <input type="number" id="id">
+   Item Name:      <input type="text" id="name" value="">
+   Item Cost:      <input type="number" id="cost">
+   Item Quantity:  <input type="number" id="qty">
+
+   <button id="cart-btn" onclick="show()">Add to cart</button>
+   <p id="output"></p><span>Sub Total:</span>
+   <p id="sub-total"></p><span>Sale Tax:</span>
+   <p id="sale-tax"></p><span>Total</span>
+   <p id="total"></p> 
+</pre>
+<script src="main.js" ></script>
+
+
+</body>
+</html>
