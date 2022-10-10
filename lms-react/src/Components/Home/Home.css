@@ -1,0 +1,42 @@
+#home {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../images/bg-image.jpeg');
+    background-size: cover;
+}
+
+#home header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.5rem;
+    width: 100%;
+    background-color:#1a2b44;
+    color:whitesmoke;
+}
+
+#home header img {
+    width: auto;
+    height: 100%;
+}
+#home header nav {
+    display: flex;
+}
+#home header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#home header nav button {
+    height: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.9rem;
+    margin: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+header nav button:hover {
+    background-color:rgb(158, 185, 233);
+}

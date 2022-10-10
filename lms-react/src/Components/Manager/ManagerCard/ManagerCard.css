@@ -1,0 +1,64 @@
+#manager-card {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#manager-card .card-container{
+    position: relative;
+    width: 700px;
+    height: 300px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.card-container .div-1, .div-2 {
+    flex: 33%;
+}
+#manager-card .card-container img {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+}
+
+#manager-card .card-container .div-3 {
+    position: absolute;
+    font-size: 1.2rem;
+    width: 700px;
+    height: 3rem;
+    bottom: 0;
+    left: 0;
+}
+#manager-card .card-container .div-3 .rejectBtn{
+    position: absolute;
+    background-color: red;
+    font-size: 1.2rem;
+    width: 50%;
+    height: 3rem;
+    padding: .5rem;
+    bottom: 0;
+    left: 50%;
+}
+
+#manager-card .card-container .div-3 .approveBtn {
+    position: absolute;
+    background-color: green;
+    font-size: 1.2rem;
+    width: 50%;
+    height: 3rem;
+    padding: .5rem;
+    bottom: 0;
+    left: 0;
+}
+
+#manager-card .card-container .btn-approved {
+    background-color: green;
+}
+#manager-card .card-container .btn-rejected {
+    background-color: red;
+}
+#manager-card .card-container .btn-pending {
+    background-color: orange;
+}

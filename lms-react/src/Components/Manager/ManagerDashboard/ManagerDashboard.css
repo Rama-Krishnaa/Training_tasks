@@ -1,0 +1,40 @@
+#manager-dash {
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    text-transform: capitalize;
+    background-color: #1a244e;
+    color: white;
+
+}
+#manager-dash header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+    color: #1a244e;
+}
+#manager-dash .links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+#manager-dash div button{
+    color: #000;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:whitesmoke;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+}
+
+#manager-dash div button:hover{
+    color:whitesmoke;
+    background-color:#1a254e;
+
+}
+

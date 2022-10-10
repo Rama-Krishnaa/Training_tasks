@@ -1,0 +1,52 @@
+#customer-card {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#customer-card .card-container{
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    position: relative;   
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#customer-card .card-container .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 2.5em;
+}
+
+#customer-card .card-container img {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+#customer-card .card-container button{
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 3.5rem;
+    padding: .5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#customer-card .card-container .btn-approved {
+    background-color: green;
+}
+#customer-card .card-container .btn-rejected {
+    background-color: red;
+}
+#customer-card .card-container .btn-pending {
+    background-color: orange;
+}
+#customer-card .card-container .apply-btn:hover {
+    background-color:steelblue;
+    color: white;
+    border: none;
+}

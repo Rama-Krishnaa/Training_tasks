@@ -1,0 +1,40 @@
+#customer-dash {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #1a244e;
+    color: white;
+}
+#customer-dash h1 {
+    text-transform: capitalize;
+
+}
+#customer-dash header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+    color: #1a244e;
+}
+#customer-dash .links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+#customer-dash div button{
+    gap: 2rem;
+    color: #000;
+    background-color:whitesmoke;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+#customer-dash div button:hover{
+    color:whitesmoke;
+    background-color:#1a254e;
+}
+

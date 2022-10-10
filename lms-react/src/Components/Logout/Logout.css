@@ -1,0 +1,17 @@
+#logout {
+    position: relative;
+}
+.btn-logout{
+    font-size: 1.2rem;
+    width: 6rem;
+    padding: .7rem;
+    border-radius: 5px;
+    border: none;
+    background-color:#1a243e;
+    color: #fff;
+}
+
+.btn-logout:hover {
+    color:#1a243e;
+    background-color:steelblue;
+}
